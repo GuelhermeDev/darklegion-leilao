@@ -1,0 +1,15 @@
+/* css/styles.css */
+.container {
+    max-width: 600px;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+}
+
+#timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+}

@@ -8,6 +8,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -35,6 +38,8 @@ public class Produto {
     @Enumerated(EnumType.STRING)
     private Alternativa arrematado;
 
+    @Column(name="timerFinal")
+    private LocalDateTime timerFinal;  // Armazena o tempo final do leilão
 
 
 

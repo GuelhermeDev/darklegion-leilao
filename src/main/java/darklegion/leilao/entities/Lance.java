@@ -32,4 +32,7 @@ public class Lance {
     @OneToOne
     private User user;
 
+    @ManyToOne
+    private Produto produto;
+
 }
